@@ -10,9 +10,9 @@ app.use(bodyParser.json());
 var nextId = 3;
 var serverData = {
     "list": [
-        {"id": 0, "text" : "Beat Witcher 2", "edit" : false, "editText" : ""},
-        {"id": 1, "text" : "Finish Todo List", "edit" : false, "editText" : ""},
-        {"id": 2, "text" : "Go to Miami", "edit" : false, "editText" : ""}
+        {"id": 0, "text" : "Sample Item 1", "edit" : false, "editText" : ""},
+        {"id": 1, "text" : "Sample Item 2", "edit" : false, "editText" : ""},
+        {"id": 2, "text" : "Sample Item 3", "edit" : false, "editText" : ""}
 ]};
 
 app.get('/', (req, res) => {
