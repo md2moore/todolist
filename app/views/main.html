@@ -1,0 +1,18 @@
+<div>
+  <div class="list-header">Your Todo List!</div>
+  <div>
+    <div class="list-row" ng-repeat="x in serverData">
+      <div class="list-item" ng-if="!x.edit">{{x.text}}</div>
+      <input class="list-item input-row" placeholder="Update here" ng-if="x.edit" ng-model="x.editText">
+      <div class="list-button update" ng-if="!x.edit" ng-click="showInput(serverData.indexOf(x))">Edit</div>
+      <div class="list-button check" ng-if="!x.edit" ng-click="check(x.id)">Done</div>
+      <div class="list-button update" ng-if="x.edit" ng-click="update(x.id, x.editText)">Update</div>
+      <div class="list-button cancel" ng-if="x.edit" ng-click="cancel(serverData.indexOf(x))">Cancel</div>
+    </div>
+    
+    <div class="list-row">
+      <input class="list-item input-row" placeholder="Add an item here" ng-model="inputData.addText">
+      <div class="list-button add" ng-click="add(inputData.addText)">Add</div>
+    </div>
+  </div>
+</div>

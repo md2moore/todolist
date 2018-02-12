@@ -1,0 +1,59 @@
+.todo {
+
+    .list-header{
+        text-align: center;
+        font-size: 30px;
+        color: black;
+        background-color : #efefef;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border:1px solid black;
+    }
+
+    .list-row{
+        display: flex;
+        color: black;
+        font-size: 24px;
+
+        .input-row{
+            background-color: #efefef;
+            border-left:1px solid black;
+            border-bottom:1px solid black;
+            border-top: none;
+            border-right: none;
+        }
+    }
+    .list-item {
+        flex-basis: 60%;
+        background-color : #efefef;
+        border-left:1px solid black;
+        border-bottom:1px solid black;
+        padding-left: 10px;
+        word-break:break-all;
+    }
+
+    .list-button{
+        text-align: center;
+        flex-basis: 20%;
+        border-left:1px solid black;
+        border-bottom:1px solid black;
+        color: white;
+
+        &.check{
+            background-color: lightgreen;
+            border-right: 1px solid black;
+        }
+        &.update{
+            background-color: #a9a9a9;
+        }
+        &.cancel{
+            background-color: #ff3b3f;
+            border-right: 1px solid black;
+        }
+        &.add{
+            background-color: #a9a9a9;
+            border-right: 1px solid black;
+        }
+    }
+}
+
