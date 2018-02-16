@@ -27,7 +27,7 @@ angular
         controllerAs: 'main',
         resolve: {
           todoList: ['$http', function($http) {
-              return $http.get('http://localhost:3000/');
+              return $http.get('http://localhost:5000/api/todo');
         }]}
       })
       .otherwise({

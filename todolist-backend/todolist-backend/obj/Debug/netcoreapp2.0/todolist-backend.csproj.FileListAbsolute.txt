@@ -1,0 +1,10 @@
+C:\Users\docto\Desktop\todolist-backend\todolist-backend\bin\Debug\netcoreapp2.0\todolist-backend.deps.json
+C:\Users\docto\Desktop\todolist-backend\todolist-backend\bin\Debug\netcoreapp2.0\todolist-backend.runtimeconfig.json
+C:\Users\docto\Desktop\todolist-backend\todolist-backend\bin\Debug\netcoreapp2.0\todolist-backend.runtimeconfig.dev.json
+C:\Users\docto\Desktop\todolist-backend\todolist-backend\bin\Debug\netcoreapp2.0\todolist-backend.dll
+C:\Users\docto\Desktop\todolist-backend\todolist-backend\bin\Debug\netcoreapp2.0\todolist-backend.pdb
+C:\Users\docto\Desktop\todolist-backend\todolist-backend\obj\Debug\netcoreapp2.0\todolist-backend.csproj.CoreCompileInputs.cache
+C:\Users\docto\Desktop\todolist-backend\todolist-backend\obj\Debug\netcoreapp2.0\todolist-backend.AssemblyInfoInputs.cache
+C:\Users\docto\Desktop\todolist-backend\todolist-backend\obj\Debug\netcoreapp2.0\todolist-backend.AssemblyInfo.cs
+C:\Users\docto\Desktop\todolist-backend\todolist-backend\obj\Debug\netcoreapp2.0\todolist-backend.dll
+C:\Users\docto\Desktop\todolist-backend\todolist-backend\obj\Debug\netcoreapp2.0\todolist-backend.pdb
