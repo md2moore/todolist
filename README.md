@@ -17,8 +17,10 @@ In order to run this todo list application you must install all the prerequisite
 
 These same steps above are outlined in the readme section in the github for the [yo angular generator](https://github.com/yeoman/generator-angular) scaffolding tool used to build the angular web app.
 
+The instructions above outline how to install all the dependencies for the web portion. For the .Net server the only thing you must do is  install .NET core.
+
 ## Running the To Do List Application
 
-First you must start the server by entering this command in the apps root directory in the nodejs command prompt: "node backend.js".
-Then you can run "grunt serve" in the same directory in another window.
+First you must start the server. I have been running "dotnet publish todolist-backend" in the todolist-backend folder with the root TodoList folder of the project. Then after that running the following command to start the WebApi: "dotnet [path to dll file]". Replace [path to dll file] with the path to the dll file that has been create with the previous publish command. 
 
+Then after the server is started you can run "grunt serve" in the nodejs command prompt from within the TodoList main directory.
